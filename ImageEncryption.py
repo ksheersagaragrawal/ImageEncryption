@@ -9,7 +9,7 @@ def ShowImage(image,heading):
     plt.show()
 
 
-# Functino providing the Dimensions of the image
+# Function providing the Dimensions of the image
 def ProvideDimension(image):
     return image.shape[0], image.shape[1]
 
@@ -53,7 +53,7 @@ def RungeKutte(x0, y0, z0, n):
 
 
 # Taking the image as input
-picture = img.imread('girl.jpg')
+picture = img.imread('GroupPhoto.jpg')
 ShowImage(picture,"Actual Image")
 
 # Taking the dimesions of the image using the function
