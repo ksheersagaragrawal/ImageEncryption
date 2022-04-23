@@ -26,8 +26,8 @@ def LorenzEquations(x, y, z):
     return dx, dy, dz
 
 
-# Defining the Runge Kutte Method
-def RungeKutte(x0, y0, z0, n):
+# Defining the Runge kutta Method
+def Rungekutta(x0, y0, z0, n):
    
     x = np.zeros(n+1)
     y = np.zeros(n+1)
@@ -61,7 +61,7 @@ h, w = ProvideDimension(picture)
 
 
 # Using the key for each pixel of the image
-keys = RungeKutte(0.08342, 0.0696969, 0.442056, h*w)
+keys = Rungekutta(0.08342, 0.0696969, 0.442056, h*w)
 
 # Doing Encryption using the key and the given image
 Encryption = np.zeros(shape=[h, w, 3], dtype=np.uint8)
@@ -86,7 +86,7 @@ ShowImage(Decryption,'Decrypted Image with Actual key')
 
 
 # Improper Decryption using different key
-keys1 = RungeKutte(0.1, 0.2, 0.3, h*w)
+keys1 = Rungekutta(0.1, 0.2, 0.3, h*w)
 Decryption = np.zeros(shape=[h, w, 3], dtype=np.uint8)
 Index = 0
 for i in range(h):
