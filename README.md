@@ -39,13 +39,3 @@ Instructions on how to use the code to encrypt and decrypt images. Include examp
 
 ## References
 Links to relevant literature and resources that support the methodology and implementation of this project.
-
-## Project Team
-- Haikoo Khandor
-- Kanishk Singhal
-- Ksheer Agrawal
-- Madhav Kanda
-- Medhansh Singh
-
-### Acknowledgments
-Special thanks to the professors of the MA202 course and Prof. Uddipta Ghosh for their guidance and support.
