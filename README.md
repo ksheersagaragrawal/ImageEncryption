@@ -29,13 +29,10 @@ The codebase includes algorithms for encrypting and decrypting images using the 
 - Utilization of Lorenz equations and chaotic systems for generating unpredictable encryption keys.
 - Implementation of the RK-4 method for precise calculations in the encryption process.
 
-## Usage
-Instructions on how to use the code to encrypt and decrypt images. Include examples and screenshots if available.
+## Contribution
+This is an open-source project. Contributions are welcome.
 
 ## Future Enhancements
 - Development of a Python-based GUI for easier interaction with the encryption tool.
 - Extension of the algorithm to support other image formats and text encryption.
 - Exploration of other numerical methods to further enhance encryption efficiency.
-
-## References
-Links to relevant literature and resources that support the methodology and implementation of this project.
